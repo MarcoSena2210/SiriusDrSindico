@@ -1,0 +1,10 @@
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Api\bin\Debug\netcoreapp2.0\SiriusDrSindico.Api.deps.json
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Api\bin\Debug\netcoreapp2.0\SiriusDrSindico.Api.runtimeconfig.json
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Api\bin\Debug\netcoreapp2.0\SiriusDrSindico.Api.runtimeconfig.dev.json
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Api\bin\Debug\netcoreapp2.0\SiriusDrSindico.Api.dll
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Api\bin\Debug\netcoreapp2.0\SiriusDrSindico.Api.pdb
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Api\obj\Debug\netcoreapp2.0\SiriusDrSindico.Api.csproj.CoreCompileInputs.cache
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Api\obj\Debug\netcoreapp2.0\SiriusDrSindico.Api.AssemblyInfoInputs.cache
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Api\obj\Debug\netcoreapp2.0\SiriusDrSindico.Api.AssemblyInfo.cs
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Api\obj\Debug\netcoreapp2.0\SiriusDrSindico.Api.dll
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Api\obj\Debug\netcoreapp2.0\SiriusDrSindico.Api.pdb

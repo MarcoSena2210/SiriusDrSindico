@@ -1,0 +1,448 @@
+PS C:\Users\msena\dev> ls
+
+
+    Diretório: C:\Users\msena\dev
+
+
+Mode                LastWriteTime         Length Name                                          
+----                -------------         ------ ----                                          
+d-----       26/09/2018     20:31                SiriusDrSindico                               
+
+
+
+PS C:\Users\msena\dev> cd sisriusDrsindic
+cd : Não é possível localizar o caminho 'C:\Users\msena\dev\sisriusDrsindic' porque ele não 
+existe.
+No linha:1 caractere:1
++ cd sisriusDrsindic
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\msena\dev\sisriusDrsindic:String) [Set 
+   -Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+ 
+
+PS C:\Users\msena\dev> cd sisriusDrsindico
+cd : Não é possível localizar o caminho 'C:\Users\msena\dev\sisriusDrsindico' porque ele não 
+existe.
+No linha:1 caractere:1
++ cd sisriusDrsindico
++ ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\msena\dev\sisriusDrsindico:String) [Se 
+   t-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+ 
+
+PS C:\Users\msena\dev> cd SiriusDrSindico
+
+PS C:\Users\msena\dev\SiriusDrSindico> mkdir SiriusDrSindico.Domain
+
+
+    Diretório: C:\Users\msena\dev\SiriusDrSindico
+
+
+Mode                LastWriteTime         Length Name                                          
+----                -------------         ------ ----                                          
+d-----       26/09/2018     20:36                SiriusDrSindico.Domain                        
+
+
+
+PS C:\Users\msena\dev\SiriusDrSindico> mkdir SiriusDrSindico.Infra
+
+
+    Diretório: C:\Users\msena\dev\SiriusDrSindico
+
+
+Mode                LastWriteTime         Length Name                                          
+----                -------------         ------ ----                                          
+d-----       26/09/2018     20:36                SiriusDrSindico.Infra                         
+
+
+
+PS C:\Users\msena\dev\SiriusDrSindico> mkdir SiriusDrSindico.Api
+
+
+    Diretório: C:\Users\msena\dev\SiriusDrSindico
+
+
+Mode                LastWriteTime         Length Name                                          
+----                -------------         ------ ----                                          
+d-----       26/09/2018     20:36                SiriusDrSindico.Api                           
+
+
+
+PS C:\Users\msena\dev\SiriusDrSindico> mkdir SiriusDrSindico.Shared
+
+
+    Diretório: C:\Users\msena\dev\SiriusDrSindico
+
+
+Mode                LastWriteTime         Length Name                                          
+----                -------------         ------ ----                                          
+d-----       26/09/2018     20:36                SiriusDrSindico.Shared                        
+
+
+
+PS C:\Users\msena\dev\SiriusDrSindico> mkdir SiriusDrSindico.Tests
+
+
+    Diretório: C:\Users\msena\dev\SiriusDrSindico
+
+
+Mode                LastWriteTime         Length Name                                          
+----                -------------         ------ ----                                          
+d-----       26/09/2018     20:37                SiriusDrSindico.Tests                         
+
+
+
+PS C:\Users\msena\dev\SiriusDrSindico> ls
+
+
+    Diretório: C:\Users\msena\dev\SiriusDrSindico
+
+
+Mode                LastWriteTime         Length Name                                          
+----                -------------         ------ ----                                          
+d-----       26/09/2018     20:36                SiriusDrSindico.Api                           
+d-----       26/09/2018     20:36                SiriusDrSindico.Domain                        
+d-----       26/09/2018     20:36                SiriusDrSindico.Infra                         
+d-----       26/09/2018     20:36                SiriusDrSindico.Shared                        
+d-----       26/09/2018     20:37                SiriusDrSindico.Tests                         
+
+
+
+PS C:\Users\msena\dev\SiriusDrSindico> cd SiriusDrSindico
+cd : Não é possível localizar o caminho 'C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico' 
+porque ele não existe.
+No linha:1 caractere:1
++ cd SiriusDrSindico
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\msena\...SiriusDrSindico:String) [Set- 
+   Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+ 
+
+PS C:\Users\msena\dev\SiriusDrSindico> cd SiriusDrSindico.Api
+
+PS C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Api> dornet new web
+dornet : O termo 'dornet' não é reconhecido como nome de cmdlet, função, arquivo de script ou 
+programa operável. Verifique a grafia do nome ou, se um caminho tiver sido incluído, veja se o 
+caminho está correto e tente novamente.
+No linha:1 caractere:1
++ dornet new web
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (dornet:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+
+PS C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Api> dornet new web
+dornet : O termo 'dornet' não é reconhecido como nome de cmdlet, função, arquivo de script ou 
+programa operável. Verifique a grafia do nome ou, se um caminho tiver sido incluído, veja se o 
+caminho está correto e tente novamente.
+No linha:1 caractere:1
++ dornet new web
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (dornet:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+
+PS C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Api> dotnet new web
+Preparando-se...
+O modelo "ASP.NET Core Empty" foi criado com ˆxito.
+Este modelo cont‚m tecnologias de fornecedores que nÆo a Microsoft. Confira https://aka.ms/templ
+ate-3pn para obter detalhes.
+
+Processando a‡äes de p¢s-cria‡Æo...
+Executando o 'dotnet restore' em C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Api\SiriusDr
+Sindico.Api.csproj...
+  Restoring packages for C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Api\SiriusDrSindico.
+Api.csproj...
+  Generating MSBuild file C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Api\obj\SiriusDrSin
+dico.Api.csproj.nuget.g.props.
+  Generating MSBuild file C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Api\obj\SiriusDrSin
+dico.Api.csproj.nuget.g.targets.
+  Restore completed in 48,19 sec for C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Api\Siri
+usDrSindico.Api.csproj.
+
+dotnet : 
+No linha:1 caractere:1
++ dotnet new web
++ ~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+A restaura‡Æo foi bem-sucedida.
+
+
+PS C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Api> ls
+
+
+    Diretório: C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Api
+
+
+Mode                LastWriteTime         Length Name                                          
+----                -------------         ------ ----                                          
+d-----       26/09/2018     20:43                obj                                           
+d-----       26/09/2018     20:42                wwwroot                                       
+-a----       26/09/2018     20:42            636 Program.cs                                    
+-a----       26/09/2018     20:42            326 SiriusDrSindico.Api.csproj                    
+-a----       26/09/2018     20:42           1129 Startup.cs                                    
+
+
+
+PS C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Api> cd ..
+
+PS C:\Users\msena\dev\SiriusDrSindico> ls
+
+
+    Diretório: C:\Users\msena\dev\SiriusDrSindico
+
+
+Mode                LastWriteTime         Length Name                                          
+----                -------------         ------ ----                                          
+d-----       26/09/2018     20:43                SiriusDrSindico.Api                           
+d-----       26/09/2018     20:36                SiriusDrSindico.Domain                        
+d-----       26/09/2018     20:36                SiriusDrSindico.Infra                         
+d-----       26/09/2018     20:36                SiriusDrSindico.Shared                        
+d-----       26/09/2018     20:37                SiriusDrSindico.Tests                         
+
+
+
+PS C:\Users\msena\dev\SiriusDrSindico> cd SiriusDrSindico.Domain
+
+PS C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Domain> dotnet new classlib
+O modelo "Class library" foi criado com ˆxito.
+
+Processando a‡äes de p¢s-cria‡Æo...
+Executando o 'dotnet restore' em C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Domain\Siriu
+sDrSindico.Domain.csproj...
+  Restoring packages for C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Domain\SiriusDrSindi
+co.Domain.csproj...
+  Generating MSBuild file C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Domain\obj\SiriusDr
+Sindico.Domain.csproj.nuget.g.props.
+  Generating MSBuild file C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Domain\obj\SiriusDr
+Sindico.Domain.csproj.nuget.g.targets.
+  Restore completed in 233,15 ms for C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Domain\S
+iriusDrSindico.Domain.csproj.
+
+dotnet : 
+No linha:1 caractere:1
++ dotnet new classlib
++ ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+A restaura‡Æo foi bem-sucedida.
+
+
+PS C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Domain> cd ..
+
+PS C:\Users\msena\dev\SiriusDrSindico> cd SiriusDrSindico.Infra
+
+PS C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Infra> dotnet new classlib
+O modelo "Class library" foi criado com ˆxito.
+
+Processando a‡äes de p¢s-cria‡Æo...
+Executando o 'dotnet restore' em C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Infra\Sirius
+DrSindico.Infra.csproj...
+  Restoring packages for C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Infra\SiriusDrSindic
+o.Infra.csproj...
+  Generating MSBuild file C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Infra\obj\SiriusDrS
+indico.Infra.csproj.nuget.g.props.
+  Generating MSBuild file C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Infra\obj\SiriusDrS
+indico.Infra.csproj.nuget.g.targets.
+  Restore completed in 230,8 ms for C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Infra\Sir
+iusDrSindico.Infra.csproj.
+dotnet : 
+No linha:1 caractere:1
++ dotnet new classlib
++ ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+A restaura‡Æo foi bem-sucedida.
+
+
+PS C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Infra> cd ..
+
+PS C:\Users\msena\dev\SiriusDrSindico> cd SiriusDrSindico.Shared
+
+PS C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Shared> dotnet new classlib
+O modelo "Class library" foi criado com ˆxito.
+
+Processando a‡äes de p¢s-cria‡Æo...
+Executando o 'dotnet restore' em C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Shared\Siriu
+sDrSindico.Shared.csproj...
+  Restoring packages for C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Shared\SiriusDrSindi
+co.Shared.csproj...
+  Generating MSBuild file C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Shared\obj\SiriusDr
+Sindico.Shared.csproj.nuget.g.props.
+  Generating MSBuild file C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Shared\obj\SiriusDr
+Sindico.Shared.csproj.nuget.g.targets.
+  Restore completed in 191,95 ms for C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Shared\S
+iriusDrSindico.Shared.csproj.
+
+dotnet : 
+No linha:1 caractere:1
++ dotnet new classlib
++ ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+A restaura‡Æo foi bem-sucedida.
+
+
+PS C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Shared> cd ..
+
+PS C:\Users\msena\dev\SiriusDrSindico> cd SiriusDrSindico.Tests
+
+PS C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests> dotnet new mstests
+dotnet : Nenhum modelo correspondeu ao nome do modelo de entrada: mstests.
+No linha:1 caractere:1
++ dotnet new mstests
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Nenhum modelo c...trada: mstests.:String) [], Rem 
+   oteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Modelos                                           Nome Curto       Idioma            Marcas     
+        
+------------------------------------------------------------------------------------------------
+--------
+Console Application                               console          [C#], F#, VB      Common/Cons
+ole     
+Class library                                     classlib         [C#], F#, VB      Common/Libr
+ary     
+Unit Test Project                                 mstest           [C#], F#, VB      Test/MSTest
+        
+xUnit Test Project                                xunit            [C#], F#, VB      Test/xUnit 
+        
+ASP.NET Core Empty                                web              [C#], F#          Web/Empty  
+        
+ASP.NET Core Web App (Model-View-Controller)      mvc              [C#], F#          Web/MVC    
+        
+ASP.NET Core Web App                              razor            [C#]              Web/MVC/Raz
+or Pages
+ASP.NET Core with Angular                         angular          [C#]              Web/MVC/SPA
+        
+ASP.NET Core with React.js                        react            [C#]              Web/MVC/SPA
+        
+ASP.NET Core with React.js and Redux              reactredux       [C#]              Web/MVC/SPA
+        
+ASP.NET Core Web API                              webapi           [C#], F#          Web/WebAPI 
+        
+global.json file                                  globaljson                         Config     
+        
+Nuget Config                                      nugetconfig                        Config     
+        
+Web Config                                        webconfig                          Config     
+        
+Solution File                                     sln                                Solution   
+        
+Razor Page                                        page                               Web/ASP.NET
+        
+MVC ViewImports                                   viewimports                        Web/ASP.NET
+        
+MVC ViewStart                                     viewstart                          Web/ASP.NET
+        
+
+
+
+PS C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests> dotnet new mstest
+O modelo "Unit Test Project" foi criado com ˆxito.
+
+Processando a‡äes de p¢s-cria‡Æo...
+Executando o 'dotnet restore' em C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests\Sirius
+DrSindico.Tests.csproj...
+  Restoring packages for C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests\SiriusDrSindic
+o.Tests.csproj...
+  Installing Microsoft.TestPlatform.ObjectModel 15.3.0-preview-20170628-02.
+  Installing Microsoft.TestPlatform.TestHost 15.3.0-preview-20170628-02.
+  Installing Microsoft.NET.Test.Sdk 15.3.0-preview-20170628-02.
+  Installing MSTest.TestAdapter 1.1.18.
+  Installing MSTest.TestFramework 1.1.18.
+  Generating MSBuild file C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests\obj\SiriusDrS
+indico.Tests.csproj.nuget.g.props.
+  Generating MSBuild file C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests\obj\SiriusDrS
+indico.Tests.csproj.nuget.g.targets.
+  Restore completed in 11,48 sec for C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests\Si
+riusDrSindico.Tests.csproj.
+
+dotnet : 
+No linha:1 caractere:1
++ dotnet new mstest
++ ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+A restaura‡Æo foi bem-sucedida.
+
+
+PS C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests> cd ..
+
+PS C:\Users\msena\dev\SiriusDrSindico> ls
+
+
+    Diretório: C:\Users\msena\dev\SiriusDrSindico
+
+
+Mode                LastWriteTime         Length Name                                          
+----                -------------         ------ ----                                          
+d-----       26/09/2018     20:43                SiriusDrSindico.Api                           
+d-----       26/09/2018     20:45                SiriusDrSindico.Domain                        
+d-----       26/09/2018     20:45                SiriusDrSindico.Infra                         
+d-----       26/09/2018     20:46                SiriusDrSindico.Shared                        
+d-----       26/09/2018     20:48                SiriusDrSindico.Tests                         
+
+
+
+PS C:\Users\msena\dev\SiriusDrSindico> dotnet new sln
+O modelo "Solution File" foi criado com ˆxito.
+
+PS C:\Users\msena\dev\SiriusDrSindico> dotnet new sln
+dotnet : A cria‡Æo desse modelo far  altera‡äes nos arquivos existentes:
+No linha:1 caractere:1
++ dotnet new sln
++ ~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (A cria‡Æo desse...vos existentes::String) [], Rem 
+   oteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  Substituir   SiriusDrSindico.sln
+Execute novamente o comando e passe --force para aceitar e criar.
+
+PS C:\Users\msena\dev\SiriusDrSindico> ls
+
+
+    Diretório: C:\Users\msena\dev\SiriusDrSindico
+
+
+Mode                LastWriteTime         Length Name                                          
+----                -------------         ------ ----                                          
+d-----       26/09/2018     20:43                SiriusDrSindico.Api                           
+d-----       26/09/2018     20:45                SiriusDrSindico.Domain                        
+d-----       26/09/2018     20:45                SiriusDrSindico.Infra                         
+d-----       26/09/2018     20:46                SiriusDrSindico.Shared                        
+d-----       26/09/2018     20:48                SiriusDrSindico.Tests                         
+-a----       26/09/2018     20:49            540 SiriusDrSindico.sln                           
+
+
+
+PS C:\Users\msena\dev\SiriusDrSindico> dotnet sln add .\SiriusDrSindico.Api\SiriusDrSindico.Api.csproj
+O projeto 'SiriusDrSindico.Api\SiriusDrSindico.Api.csproj' foi adicionado … solu‡Æo.
+
+PS C:\Users\msena\dev\SiriusDrSindico> dotnet sln add .\SiriusDrSindico.Domain\SiriusDrSindico.Domain.csproj
+O projeto 'SiriusDrSindico.Domain\SiriusDrSindico.Domain.csproj' foi adicionado … solu‡Æo.
+
+PS C:\Users\msena\dev\SiriusDrSindico> dotnet sln add .\SiriusDrSindico.Infra\SiriusDrSindico.Infra.csproj
+O projeto 'SiriusDrSindico.Infra\SiriusDrSindico.Infra.csproj' foi adicionado … solu‡Æo.
+
+PS C:\Users\msena\dev\SiriusDrSindico> dotnet sln add .\SiriusDrSindico.Shared\SiriusDrSindico.Shared.csproj
+O projeto 'SiriusDrSindico.Shared\SiriusDrSindico.Shared.csproj' foi adicionado … solu‡Æo.
+
+PS C:\Users\msena\dev\SiriusDrSindico> dotnet sln add .\SiriusDrSindico.Tests\SiriusDrSindico.Tests.csproj
+O projeto 'SiriusDrSindico.Tests\SiriusDrSindico.Tests.csproj' foi adicionado … solu‡Æo.
+
+PS C:\Users\msena\dev\SiriusDrSindico> code .
+
+PS C:\Users\msena\dev\SiriusDrSindico> Shared

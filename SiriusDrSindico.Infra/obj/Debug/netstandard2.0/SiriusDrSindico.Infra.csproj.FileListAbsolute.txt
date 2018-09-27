@@ -1,0 +1,8 @@
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Infra\bin\Debug\netstandard2.0\SiriusDrSindico.Infra.deps.json
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Infra\bin\Debug\netstandard2.0\SiriusDrSindico.Infra.dll
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Infra\bin\Debug\netstandard2.0\SiriusDrSindico.Infra.pdb
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Infra\obj\Debug\netstandard2.0\SiriusDrSindico.Infra.csproj.CoreCompileInputs.cache
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Infra\obj\Debug\netstandard2.0\SiriusDrSindico.Infra.AssemblyInfoInputs.cache
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Infra\obj\Debug\netstandard2.0\SiriusDrSindico.Infra.AssemblyInfo.cs
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Infra\obj\Debug\netstandard2.0\SiriusDrSindico.Infra.dll
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Infra\obj\Debug\netstandard2.0\SiriusDrSindico.Infra.pdb

@@ -1,0 +1,13 @@
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests\bin\Debug\netcoreapp2.0\SiriusDrSindico.Tests.deps.json
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests\bin\Debug\netcoreapp2.0\SiriusDrSindico.Tests.runtimeconfig.json
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests\bin\Debug\netcoreapp2.0\SiriusDrSindico.Tests.runtimeconfig.dev.json
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests\bin\Debug\netcoreapp2.0\SiriusDrSindico.Tests.dll
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests\bin\Debug\netcoreapp2.0\SiriusDrSindico.Tests.pdb
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests\obj\Debug\netcoreapp2.0\SiriusDrSindico.Tests.csproj.CoreCompileInputs.cache
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests\obj\Debug\netcoreapp2.0\SiriusDrSindico.Tests.AssemblyInfoInputs.cache
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests\obj\Debug\netcoreapp2.0\SiriusDrSindico.Tests.AssemblyInfo.cs
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests\obj\Debug\netcoreapp2.0\SiriusDrSindico.Tests.dll
+c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests\obj\Debug\netcoreapp2.0\SiriusDrSindico.Tests.pdb
