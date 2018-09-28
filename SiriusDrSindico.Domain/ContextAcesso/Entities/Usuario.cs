@@ -1,21 +1,24 @@
 using System;
-using SiriusDrSindico.Domain.ContextBase.ValueObjects;
+using SiriusDrSindico.Domain.ContextGeral.ValueObjects;
 
 namespace SiriusDrSindico.Domain.ContextAcesso.Entities
 {
     public class Usuario
     {
-        public Usuario(Nome nome, Email email, string senha)
+        public Usuario(VNome nome, VEmail email, string senha, bool ativo, DateTime dataInclucaoRegistro, DateTime dataUltimoLogin)
         {
-            this.Nome = nome;
-            this.Email = email;
-            this.Senha = senha;
-            this.Ativo = true;
+            Nome = nome;
+            Email = email;
+            Senha = senha;
+            Ativo = ativo;
+            DataInclucaoRegistro = dataInclucaoRegistro;
+            DataUltimoLogin = dataUltimoLogin;
         }
 
+
         #region Propriedades
-        public Nome Nome { get; private set; }
-        public Email Email { get; private set; }
+        public VNome Nome { get; private set; }
+        public VEmail Email { get; private set; }
         public string Senha { get; private set; }
 
         public bool Ativo { get; private set; }
@@ -31,6 +34,10 @@ namespace SiriusDrSindico.Domain.ContextAcesso.Entities
         //Eventos 
         public void AoRegistrar() {  /*dispara um email */}
 
+       public override string ToString()
+        {
+            return $"" + Nome;
+        }
 
     }
 }

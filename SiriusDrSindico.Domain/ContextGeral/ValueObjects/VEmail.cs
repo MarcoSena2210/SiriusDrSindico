@@ -1,11 +1,11 @@
 ﻿// using FluentValidator;
 // using FluentValidator.Validation;
 
-namespace SiriusDrSindico.Domain.ContextBase.ValueObjects
+namespace SiriusDrSindico.Domain.ContextGeral.ValueObjects
 {
-    public class Email //: Notifiable
+    public class VEmail //: Notifiable
     {
-        public Email(string endereco)
+        public VEmail(string endereco)
         {
             Endereco = endereco;
 

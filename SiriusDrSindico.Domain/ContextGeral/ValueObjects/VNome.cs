@@ -1,11 +1,11 @@
 ﻿// using FluentValidator;
 // using FluentValidator.Validation;
 
-namespace SiriusDrSindico.Domain.ContextBase.ValueObjects
+namespace SiriusDrSindico.Domain.ContextGeral.ValueObjects
 {
-    public class Nome 
+    public class VNome
     {
-        public Nome(string primeiroNome, string sobreNome)
+        public VNome(string primeiroNome, string sobreNome)
         {
             PrimeiroNome = primeiroNome;
             SobreNome = sobreNome;

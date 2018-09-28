@@ -443,6 +443,6 @@ O projeto 'SiriusDrSindico.Shared\SiriusDrSindico.Shared.csproj' foi adicionado 
 PS C:\Users\msena\dev\SiriusDrSindico> dotnet sln add .\SiriusDrSindico.Tests\SiriusDrSindico.Tests.csproj
 O projeto 'SiriusDrSindico.Tests\SiriusDrSindico.Tests.csproj' foi adicionado … solu‡Æo.
 
-PS C:\Users\msena\dev\SiriusDrSindico> code .
+PS C:\Users\msena\dev\SiriusDrSindico>dotnet restore
 
-PS C:\Users\msena\dev\SiriusDrSindico> Shared
+PS C:\Users\msena\dev\SiriusDrSindico>dotnet 

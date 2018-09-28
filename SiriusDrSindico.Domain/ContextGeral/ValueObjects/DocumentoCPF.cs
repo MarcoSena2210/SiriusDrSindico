@@ -1,52 +1,43 @@
-﻿// using FluentValidator;
-// using FluentValidator.Validation;
 
-namespace SiriusDrSindico.Domain.ContextBase.ValueObjects
+
+//using FluentValidator;
+
+namespace MeuSindicoMS.Domain.ValueObjects
 {
-    public class DocumentoCPF 
+    public class DocumentoCPF // : Notifiable 
     {
         public DocumentoCPF(string number)
         {
             Number = number;
 
-            // AddNotifications(new ValidationContract()
-            //     .IsTrue(Validate(Number), "Document", "CPF inválido")
-            // );
+            // if (!Validate(number))
+            //     AddNotification("DocumentoCPF", "CPF inválido");
         }
 
         public string Number { get; private set; }
 
-        public override string ToString()
-        {
-            return Number;
-        }
-
         public bool Validate(string cpf)
         {
-            int[] multiplicador1 = new int[9] { 10, 9, 8, 7, 6, 5, 4, 3, 2 };
-            int[] multiplicador2 = new int[10] { 11, 10, 9, 8, 7, 6, 5, 4, 3, 2 };
-            string tempCpf;
-            string digito;
-            int soma;
-            int resto;
+            var multiplicador1 = new int[9] { 10, 9, 8, 7, 6, 5, 4, 3, 2 };
+            var multiplicador2 = new int[10] { 11, 10, 9, 8, 7, 6, 5, 4, 3, 2 };
             cpf = cpf.Trim();
             cpf = cpf.Replace(".", "").Replace("-", "");
             if (cpf.Length != 11)
                 return false;
-            tempCpf = cpf.Substring(0, 9);
-            soma = 0;
+            var tempCpf = cpf.Substring(0, 9);
+            var soma = 0;
 
-            for (int i = 0; i < 9; i++)
+            for (var i = 0; i < 9; i++)
                 soma += int.Parse(tempCpf[i].ToString()) * multiplicador1[i];
-            resto = soma % 11;
+            var resto = soma % 11;
             if (resto < 2)
                 resto = 0;
             else
                 resto = 11 - resto;
-            digito = resto.ToString();
+            var digito = resto.ToString();
             tempCpf = tempCpf + digito;
             soma = 0;
-            for (int i = 0; i < 10; i++)
+            for (var i = 0; i < 10; i++)
                 soma += int.Parse(tempCpf[i].ToString()) * multiplicador2[i];
             resto = soma % 11;
             if (resto < 2)
@@ -55,6 +46,12 @@ namespace SiriusDrSindico.Domain.ContextBase.ValueObjects
                 resto = 11 - resto;
             digito = digito + resto.ToString();
             return cpf.EndsWith(digito);
+        }
+
+
+        public override string ToString()
+        {
+            return Number;
         }
     }
 }
