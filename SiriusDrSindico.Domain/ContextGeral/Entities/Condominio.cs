@@ -16,6 +16,7 @@ namespace SiriusDrSindico.Domain.ContextGeral.Entities
         }
 
         #region Propriedades
+     
         public int IdCondominio { get; private  set; }
         public VNome Nome { get; private set; }
         public VEmail Email { get; private set; }

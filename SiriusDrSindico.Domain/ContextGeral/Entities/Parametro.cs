@@ -41,7 +41,7 @@ namespace SiriusDrSindico.Domain.ContextGeral.Entities
           //       .IfNotGuid(x =>x.EdificacaoId,"informe um id da edificacao GUID"); 
                           
         }
-
+#region Propriedades
         public Guid CondominioId { get; private set; }
         public Guid EdificacaoId { get; private set; }
         public byte NumeroDeImoveisPorEdificio { get; private set; }
@@ -58,11 +58,11 @@ namespace SiriusDrSindico.Domain.ContextGeral.Entities
         public decimal PercentuaMulta { get; private set; }
         public decimal PercentuaFundoReserva { get; private set; }
         public decimal PercentuaDesconto { get; private set; }
-
         public decimal ValorCondominio { get; private set; }
         public decimal ValorDesconto { get; private set; }
         public decimal ValorMulta { get; private set; }
         public decimal ValorFundoReserva { get; private set; }
+#endregion
 
      
 

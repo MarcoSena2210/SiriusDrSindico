@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using SiriusDrSindico.Domain.ContextGeral.ValueObjects;
 
 namespace SiriusDrSindico.Domain.ContextGeral.Entities
@@ -13,11 +14,19 @@ namespace SiriusDrSindico.Domain.ContextGeral.Entities
             Endereco = endereco;
         }
 
+#region Método
+    
         public VNome Nome {get; private set;} 
         public string RazaoSocial { get; private set; }
         public string Telefone { get; private set; }
         public VEmail Email { get; private set; }
         public VEndereco Endereco { get; private set; }
+        public IList<Condominio> Condominios { get;  set; }
+
+#endregion
+
+
+
 
         public override string ToString()
         {

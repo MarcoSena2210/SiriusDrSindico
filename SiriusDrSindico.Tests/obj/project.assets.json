@@ -5627,11 +5627,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\msena\\dev\\SiriusDrSindico\\SiriusDrSindico.Tests\\SiriusDrSindico.Tests.csproj",
+      "projectUniqueName": "c:\\Users\\msena\\dev\\SiriusDrSindico\\SiriusDrSindico.Tests\\SiriusDrSindico.Tests.csproj",
       "projectName": "SiriusDrSindico.Tests",
-      "projectPath": "C:\\Users\\msena\\dev\\SiriusDrSindico\\SiriusDrSindico.Tests\\SiriusDrSindico.Tests.csproj",
+      "projectPath": "c:\\Users\\msena\\dev\\SiriusDrSindico\\SiriusDrSindico.Tests\\SiriusDrSindico.Tests.csproj",
       "packagesPath": "C:\\Users\\msena\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\msena\\dev\\SiriusDrSindico\\SiriusDrSindico.Tests\\obj\\",
+      "outputPath": "c:\\Users\\msena\\dev\\SiriusDrSindico\\SiriusDrSindico.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
