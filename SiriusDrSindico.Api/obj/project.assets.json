@@ -12539,11 +12539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\msena\\dev\\SiriusDrSindico\\SiriusDrSindico.Api\\SiriusDrSindico.Api.csproj",
+      "projectUniqueName": "C:\\Users\\msena\\dev\\SiriusDrSindico\\SiriusDrSindico.Api\\SiriusDrSindico.Api.csproj",
       "projectName": "SiriusDrSindico.Api",
-      "projectPath": "c:\\Users\\msena\\dev\\SiriusDrSindico\\SiriusDrSindico.Api\\SiriusDrSindico.Api.csproj",
+      "projectPath": "C:\\Users\\msena\\dev\\SiriusDrSindico\\SiriusDrSindico.Api\\SiriusDrSindico.Api.csproj",
       "packagesPath": "C:\\Users\\msena\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\msena\\dev\\SiriusDrSindico\\SiriusDrSindico.Api\\obj\\",
+      "outputPath": "C:\\Users\\msena\\dev\\SiriusDrSindico\\SiriusDrSindico.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

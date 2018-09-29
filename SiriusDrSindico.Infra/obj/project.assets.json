@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\msena\\dev\\SiriusDrSindico\\SiriusDrSindico.Infra\\SiriusDrSindico.Infra.csproj",
+      "projectUniqueName": "C:\\Users\\msena\\dev\\SiriusDrSindico\\SiriusDrSindico.Infra\\SiriusDrSindico.Infra.csproj",
       "projectName": "SiriusDrSindico.Infra",
-      "projectPath": "c:\\Users\\msena\\dev\\SiriusDrSindico\\SiriusDrSindico.Infra\\SiriusDrSindico.Infra.csproj",
+      "projectPath": "C:\\Users\\msena\\dev\\SiriusDrSindico\\SiriusDrSindico.Infra\\SiriusDrSindico.Infra.csproj",
       "packagesPath": "C:\\Users\\msena\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\msena\\dev\\SiriusDrSindico\\SiriusDrSindico.Infra\\obj\\",
+      "outputPath": "C:\\Users\\msena\\dev\\SiriusDrSindico\\SiriusDrSindico.Infra\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

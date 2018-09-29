@@ -1,7 +1,7 @@
 PS C:\Users\msena\dev> ls
 
 
-    Diretório: C:\Users\msena\dev
+    Diretï¿½rio: C:\Users\msena\dev
 
 
 Mode                LastWriteTime         Length Name                                          
@@ -11,7 +11,7 @@ d-----       26/09/2018     20:31                SiriusDrSindico
 
 
 PS C:\Users\msena\dev> cd sisriusDrsindic
-cd : Não é possível localizar o caminho 'C:\Users\msena\dev\sisriusDrsindic' porque ele não 
+cd : Nï¿½o ï¿½ possï¿½vel localizar o caminho 'C:\Users\msena\dev\sisriusDrsindic' porque ele nï¿½o 
 existe.
 No linha:1 caractere:1
 + cd sisriusDrsindic
@@ -22,7 +22,7 @@ No linha:1 caractere:1
  
 
 PS C:\Users\msena\dev> cd sisriusDrsindico
-cd : Não é possível localizar o caminho 'C:\Users\msena\dev\sisriusDrsindico' porque ele não 
+cd : Nï¿½o ï¿½ possï¿½vel localizar o caminho 'C:\Users\msena\dev\sisriusDrsindico' porque ele nï¿½o 
 existe.
 No linha:1 caractere:1
 + cd sisriusDrsindico
@@ -37,7 +37,7 @@ PS C:\Users\msena\dev> cd SiriusDrSindico
 PS C:\Users\msena\dev\SiriusDrSindico> mkdir SiriusDrSindico.Domain
 
 
-    Diretório: C:\Users\msena\dev\SiriusDrSindico
+    Diretï¿½rio: C:\Users\msena\dev\SiriusDrSindico
 
 
 Mode                LastWriteTime         Length Name                                          
@@ -49,7 +49,7 @@ d-----       26/09/2018     20:36                SiriusDrSindico.Domain
 PS C:\Users\msena\dev\SiriusDrSindico> mkdir SiriusDrSindico.Infra
 
 
-    Diretório: C:\Users\msena\dev\SiriusDrSindico
+    Diretï¿½rio: C:\Users\msena\dev\SiriusDrSindico
 
 
 Mode                LastWriteTime         Length Name                                          
@@ -61,7 +61,7 @@ d-----       26/09/2018     20:36                SiriusDrSindico.Infra
 PS C:\Users\msena\dev\SiriusDrSindico> mkdir SiriusDrSindico.Api
 
 
-    Diretório: C:\Users\msena\dev\SiriusDrSindico
+    Diretï¿½rio: C:\Users\msena\dev\SiriusDrSindico
 
 
 Mode                LastWriteTime         Length Name                                          
@@ -73,7 +73,7 @@ d-----       26/09/2018     20:36                SiriusDrSindico.Api
 PS C:\Users\msena\dev\SiriusDrSindico> mkdir SiriusDrSindico.Shared
 
 
-    Diretório: C:\Users\msena\dev\SiriusDrSindico
+    Diretï¿½rio: C:\Users\msena\dev\SiriusDrSindico
 
 
 Mode                LastWriteTime         Length Name                                          
@@ -85,7 +85,7 @@ d-----       26/09/2018     20:36                SiriusDrSindico.Shared
 PS C:\Users\msena\dev\SiriusDrSindico> mkdir SiriusDrSindico.Tests
 
 
-    Diretório: C:\Users\msena\dev\SiriusDrSindico
+    Diretï¿½rio: C:\Users\msena\dev\SiriusDrSindico
 
 
 Mode                LastWriteTime         Length Name                                          
@@ -97,7 +97,7 @@ d-----       26/09/2018     20:37                SiriusDrSindico.Tests
 PS C:\Users\msena\dev\SiriusDrSindico> ls
 
 
-    Diretório: C:\Users\msena\dev\SiriusDrSindico
+    Diretï¿½rio: C:\Users\msena\dev\SiriusDrSindico
 
 
 Mode                LastWriteTime         Length Name                                          
@@ -111,8 +111,8 @@ d-----       26/09/2018     20:37                SiriusDrSindico.Tests
 
 
 PS C:\Users\msena\dev\SiriusDrSindico> cd SiriusDrSindico
-cd : Não é possível localizar o caminho 'C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico' 
-porque ele não existe.
+cd : Nï¿½o ï¿½ possï¿½vel localizar o caminho 'C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico' 
+porque ele nï¿½o existe.
 No linha:1 caractere:1
 + cd SiriusDrSindico
 + ~~~~~~~~~~~~~~~~~~
@@ -124,9 +124,9 @@ No linha:1 caractere:1
 PS C:\Users\msena\dev\SiriusDrSindico> cd SiriusDrSindico.Api
 
 PS C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Api> dornet new web
-dornet : O termo 'dornet' não é reconhecido como nome de cmdlet, função, arquivo de script ou 
-programa operável. Verifique a grafia do nome ou, se um caminho tiver sido incluído, veja se o 
-caminho está correto e tente novamente.
+dornet : O termo 'dornet' nï¿½o ï¿½ reconhecido como nome de cmdlet, funï¿½ï¿½o, arquivo de script ou 
+programa operï¿½vel. Verifique a grafia do nome ou, se um caminho tiver sido incluï¿½do, veja se o 
+caminho estï¿½ correto e tente novamente.
 No linha:1 caractere:1
 + dornet new web
 + ~~~~~~
@@ -135,9 +135,9 @@ No linha:1 caractere:1
  
 
 PS C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Api> dornet new web
-dornet : O termo 'dornet' não é reconhecido como nome de cmdlet, função, arquivo de script ou 
-programa operável. Verifique a grafia do nome ou, se um caminho tiver sido incluído, veja se o 
-caminho está correto e tente novamente.
+dornet : O termo 'dornet' nï¿½o ï¿½ reconhecido como nome de cmdlet, funï¿½ï¿½o, arquivo de script ou 
+programa operï¿½vel. Verifique a grafia do nome ou, se um caminho tiver sido incluï¿½do, veja se o 
+caminho estï¿½ correto e tente novamente.
 No linha:1 caractere:1
 + dornet new web
 + ~~~~~~
@@ -147,11 +147,11 @@ No linha:1 caractere:1
 
 PS C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Api> dotnet new web
 Preparando-se...
-O modelo "ASP.NET Core Empty" foi criado com ˆxito.
-Este modelo cont‚m tecnologias de fornecedores que nÆo a Microsoft. Confira https://aka.ms/templ
+O modelo "ASP.NET Core Empty" foi criado com ï¿½xito.
+Este modelo contï¿½m tecnologias de fornecedores que nï¿½o a Microsoft. Confira https://aka.ms/templ
 ate-3pn para obter detalhes.
 
-Processando a‡äes de p¢s-cria‡Æo...
+Processando aï¿½ï¿½es de pï¿½s-criaï¿½ï¿½o...
 Executando o 'dotnet restore' em C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Api\SiriusDr
 Sindico.Api.csproj...
   Restoring packages for C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Api\SiriusDrSindico.
@@ -170,13 +170,13 @@ No linha:1 caractere:1
     + CategoryInfo          : NotSpecified: (:String) [], RemoteException
     + FullyQualifiedErrorId : NativeCommandError
  
-A restaura‡Æo foi bem-sucedida.
+A restauraï¿½ï¿½o foi bem-sucedida.
 
 
 PS C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Api> ls
 
 
-    Diretório: C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Api
+    Diretï¿½rio: C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Api
 
 
 Mode                LastWriteTime         Length Name                                          
@@ -194,7 +194,7 @@ PS C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Api> cd ..
 PS C:\Users\msena\dev\SiriusDrSindico> ls
 
 
-    Diretório: C:\Users\msena\dev\SiriusDrSindico
+    Diretï¿½rio: C:\Users\msena\dev\SiriusDrSindico
 
 
 Mode                LastWriteTime         Length Name                                          
@@ -210,9 +210,9 @@ d-----       26/09/2018     20:37                SiriusDrSindico.Tests
 PS C:\Users\msena\dev\SiriusDrSindico> cd SiriusDrSindico.Domain
 
 PS C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Domain> dotnet new classlib
-O modelo "Class library" foi criado com ˆxito.
+O modelo "Class library" foi criado com ï¿½xito.
 
-Processando a‡äes de p¢s-cria‡Æo...
+Processando aï¿½ï¿½es de pï¿½s-criaï¿½ï¿½o...
 Executando o 'dotnet restore' em C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Domain\Siriu
 sDrSindico.Domain.csproj...
   Restoring packages for C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Domain\SiriusDrSindi
@@ -231,7 +231,7 @@ No linha:1 caractere:1
     + CategoryInfo          : NotSpecified: (:String) [], RemoteException
     + FullyQualifiedErrorId : NativeCommandError
  
-A restaura‡Æo foi bem-sucedida.
+A restauraï¿½ï¿½o foi bem-sucedida.
 
 
 PS C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Domain> cd ..
@@ -239,9 +239,9 @@ PS C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Domain> cd ..
 PS C:\Users\msena\dev\SiriusDrSindico> cd SiriusDrSindico.Infra
 
 PS C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Infra> dotnet new classlib
-O modelo "Class library" foi criado com ˆxito.
+O modelo "Class library" foi criado com ï¿½xito.
 
-Processando a‡äes de p¢s-cria‡Æo...
+Processando aï¿½ï¿½es de pï¿½s-criaï¿½ï¿½o...
 Executando o 'dotnet restore' em C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Infra\Sirius
 DrSindico.Infra.csproj...
   Restoring packages for C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Infra\SiriusDrSindic
@@ -260,7 +260,7 @@ No linha:1 caractere:1
     + FullyQualifiedErrorId : NativeCommandError
  
 
-A restaura‡Æo foi bem-sucedida.
+A restauraï¿½ï¿½o foi bem-sucedida.
 
 
 PS C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Infra> cd ..
@@ -268,9 +268,9 @@ PS C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Infra> cd ..
 PS C:\Users\msena\dev\SiriusDrSindico> cd SiriusDrSindico.Shared
 
 PS C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Shared> dotnet new classlib
-O modelo "Class library" foi criado com ˆxito.
+O modelo "Class library" foi criado com ï¿½xito.
 
-Processando a‡äes de p¢s-cria‡Æo...
+Processando aï¿½ï¿½es de pï¿½s-criaï¿½ï¿½o...
 Executando o 'dotnet restore' em C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Shared\Siriu
 sDrSindico.Shared.csproj...
   Restoring packages for C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Shared\SiriusDrSindi
@@ -289,7 +289,7 @@ No linha:1 caractere:1
     + CategoryInfo          : NotSpecified: (:String) [], RemoteException
     + FullyQualifiedErrorId : NativeCommandError
  
-A restaura‡Æo foi bem-sucedida.
+A restauraï¿½ï¿½o foi bem-sucedida.
 
 
 PS C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Shared> cd ..
@@ -349,9 +349,9 @@ MVC ViewStart                                     viewstart                     
 
 
 PS C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests> dotnet new mstest
-O modelo "Unit Test Project" foi criado com ˆxito.
+O modelo "Unit Test Project" foi criado com ï¿½xito.
 
-Processando a‡äes de p¢s-cria‡Æo...
+Processando aï¿½ï¿½es de pï¿½s-criaï¿½ï¿½o...
 Executando o 'dotnet restore' em C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests\Sirius
 DrSindico.Tests.csproj...
   Restoring packages for C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests\SiriusDrSindic
@@ -375,7 +375,7 @@ No linha:1 caractere:1
     + CategoryInfo          : NotSpecified: (:String) [], RemoteException
     + FullyQualifiedErrorId : NativeCommandError
  
-A restaura‡Æo foi bem-sucedida.
+A restauraï¿½ï¿½o foi bem-sucedida.
 
 
 PS C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests> cd ..
@@ -383,7 +383,7 @@ PS C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests> cd ..
 PS C:\Users\msena\dev\SiriusDrSindico> ls
 
 
-    Diretório: C:\Users\msena\dev\SiriusDrSindico
+    Diretï¿½rio: C:\Users\msena\dev\SiriusDrSindico
 
 
 Mode                LastWriteTime         Length Name                                          
@@ -397,14 +397,14 @@ d-----       26/09/2018     20:48                SiriusDrSindico.Tests
 
 
 PS C:\Users\msena\dev\SiriusDrSindico> dotnet new sln
-O modelo "Solution File" foi criado com ˆxito.
+O modelo "Solution File" foi criado com ï¿½xito.
 
 PS C:\Users\msena\dev\SiriusDrSindico> dotnet new sln
-dotnet : A cria‡Æo desse modelo far  altera‡äes nos arquivos existentes:
+dotnet : A criaï¿½ï¿½o desse modelo farï¿½ alteraï¿½ï¿½es nos arquivos existentes:
 No linha:1 caractere:1
 + dotnet new sln
 + ~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (A cria‡Æo desse...vos existentes::String) [], Rem 
+    + CategoryInfo          : NotSpecified: (A criaï¿½ï¿½o desse...vos existentes::String) [], Rem 
    oteException
     + FullyQualifiedErrorId : NativeCommandError
  
@@ -414,7 +414,7 @@ Execute novamente o comando e passe --force para aceitar e criar.
 PS C:\Users\msena\dev\SiriusDrSindico> ls
 
 
-    Diretório: C:\Users\msena\dev\SiriusDrSindico
+    Diretï¿½rio: C:\Users\msena\dev\SiriusDrSindico
 
 
 Mode                LastWriteTime         Length Name                                          
@@ -429,20 +429,25 @@ d-----       26/09/2018     20:48                SiriusDrSindico.Tests
 
 
 PS C:\Users\msena\dev\SiriusDrSindico> dotnet sln add .\SiriusDrSindico.Api\SiriusDrSindico.Api.csproj
-O projeto 'SiriusDrSindico.Api\SiriusDrSindico.Api.csproj' foi adicionado … solu‡Æo.
+O projeto 'SiriusDrSindico.Api\SiriusDrSindico.Api.csproj' foi adicionado ï¿½ soluï¿½ï¿½o.
 
 PS C:\Users\msena\dev\SiriusDrSindico> dotnet sln add .\SiriusDrSindico.Domain\SiriusDrSindico.Domain.csproj
-O projeto 'SiriusDrSindico.Domain\SiriusDrSindico.Domain.csproj' foi adicionado … solu‡Æo.
+O projeto 'SiriusDrSindico.Domain\SiriusDrSindico.Domain.csproj' foi adicionado ï¿½ soluï¿½ï¿½o.
 
 PS C:\Users\msena\dev\SiriusDrSindico> dotnet sln add .\SiriusDrSindico.Infra\SiriusDrSindico.Infra.csproj
-O projeto 'SiriusDrSindico.Infra\SiriusDrSindico.Infra.csproj' foi adicionado … solu‡Æo.
+O projeto 'SiriusDrSindico.Infra\SiriusDrSindico.Infra.csproj' foi adicionado ï¿½ soluï¿½ï¿½o.
 
 PS C:\Users\msena\dev\SiriusDrSindico> dotnet sln add .\SiriusDrSindico.Shared\SiriusDrSindico.Shared.csproj
-O projeto 'SiriusDrSindico.Shared\SiriusDrSindico.Shared.csproj' foi adicionado … solu‡Æo.
+O projeto 'SiriusDrSindico.Shared\SiriusDrSindico.Shared.csproj' foi adicionado ï¿½ soluï¿½ï¿½o.
 
 PS C:\Users\msena\dev\SiriusDrSindico> dotnet sln add .\SiriusDrSindico.Tests\SiriusDrSindico.Tests.csproj
-O projeto 'SiriusDrSindico.Tests\SiriusDrSindico.Tests.csproj' foi adicionado … solu‡Æo.
+O projeto 'SiriusDrSindico.Tests\SiriusDrSindico.Tests.csproj' foi adicionado ï¿½ soluï¿½ï¿½o.
 
 PS C:\Users\msena\dev\SiriusDrSindico>dotnet restore
 
 PS C:\Users\msena\dev\SiriusDrSindico>dotnet 
+
+
+Para adicionar referencia ao projeto 
+
+C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests> dotnet add reference ..\SiriusDrSindico.Domain\SiriusDrSindico.Domain.csproj

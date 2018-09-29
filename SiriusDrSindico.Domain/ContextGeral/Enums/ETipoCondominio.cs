@@ -3,6 +3,7 @@
     public enum ETipoCondominio
     {
         Residencial = 1,
-        Trabalho = 2
+        Trabalho = 2,
+        Ambos =3
     }
 }

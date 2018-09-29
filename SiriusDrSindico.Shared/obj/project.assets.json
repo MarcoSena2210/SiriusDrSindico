@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\msena\\dev\\SiriusDrSindico\\SiriusDrSindico.Shared\\SiriusDrSindico.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\msena\\dev\\SiriusDrSindico\\SiriusDrSindico.Shared\\SiriusDrSindico.Shared.csproj",
       "projectName": "SiriusDrSindico.Shared",
-      "projectPath": "c:\\Users\\msena\\dev\\SiriusDrSindico\\SiriusDrSindico.Shared\\SiriusDrSindico.Shared.csproj",
+      "projectPath": "C:\\Users\\msena\\dev\\SiriusDrSindico\\SiriusDrSindico.Shared\\SiriusDrSindico.Shared.csproj",
       "packagesPath": "C:\\Users\\msena\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\msena\\dev\\SiriusDrSindico\\SiriusDrSindico.Shared\\obj\\",
+      "outputPath": "C:\\Users\\msena\\dev\\SiriusDrSindico\\SiriusDrSindico.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
