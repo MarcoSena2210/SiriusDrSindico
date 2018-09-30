@@ -11,3 +11,5 @@ c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests\obj\Debug\netcoreapp2.0
 c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests\obj\Debug\netcoreapp2.0\SiriusDrSindico.Tests.AssemblyInfo.cs
 c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests\obj\Debug\netcoreapp2.0\SiriusDrSindico.Tests.dll
 c:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests\obj\Debug\netcoreapp2.0\SiriusDrSindico.Tests.pdb
+C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests\bin\Debug\netcoreapp2.0\SiriusDrSindico.Domain.dll
+C:\Users\msena\dev\SiriusDrSindico\SiriusDrSindico.Tests\bin\Debug\netcoreapp2.0\SiriusDrSindico.Domain.pdb

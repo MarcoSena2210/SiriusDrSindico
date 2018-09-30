@@ -1,10 +1,12 @@
 using System.Linq;
 using System.Collections.Generic;
 using SiriusDrSindico.Domain.ContextGeral.ValueObjects;
+using FluentValidator;
+using FluentValidator.Validation;
 
 namespace SiriusDrSindico.Domain.ContextGeral.Entities
 {
-    public class Edificacao
+    public class Edificacao :Notifiable
     {
         //Cria uma list aprivada para adionar os imoveis dessa edificacao
         private readonly IList<Imovel> _imoveis;
@@ -16,6 +18,9 @@ namespace SiriusDrSindico.Domain.ContextGeral.Entities
             Endereco = endereco;
              //A passagem da lista
             _imoveis = new List<Imovel>();
+             AddNotifications(new ValidationContract()
+                .Requires()
+                 );
         }
 
         #region Proipriedades

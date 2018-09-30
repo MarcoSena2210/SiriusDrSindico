@@ -2,23 +2,30 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 using SiriusDrSindico.Domain.ContextGeral.ValueObjects;
+using FluentValidator;
+using FluentValidator.Validation;
 
 namespace SiriusDrSindico.Domain.ContextGeral.Entities
 {
-    public class Condominio
+    public class Condominio : Notifiable
     {
          //Cria uma lista para adionar as edificações 
         private readonly IList<Edificacao> _edificacoes;
-        public Condominio(Empresa empresa,VNome nomeCondominio, VEmail email, DateTime dataCadastro, VEndereco endereco)
+        public Condominio(Empresa empresa,VNome nomeCondominio, VEmail email, VEndereco endereco)
         {
             IdCondominio = Guid.NewGuid().ToString().Replace("-"," ").Substring(0,8).ToUpper();
             Empresa = empresa;
             NomeCondominio = nomeCondominio;
             Email = email;
-            DataCadastro = dataCadastro;
+            DataCadastro = DateTime.Now;
             Endereco = endereco;
              //A passagem da lista
              _edificacoes = new List<Edificacao>() ;
+
+              AddNotifications(new ValidationContract()
+                .Requires()
+           
+            );    
         }
 
         #region Propriedades

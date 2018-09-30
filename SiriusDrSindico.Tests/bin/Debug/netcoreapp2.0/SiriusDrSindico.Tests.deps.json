@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "171a1e336214132529caf05763b3f32bb37e27f4"
+    "signature": "b07485f0d818ec3642fcbd593d38aa9da1a0cea5"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,10 +10,16 @@
         "dependencies": {
           "MSTest.TestAdapter": "1.1.18",
           "MSTest.TestFramework": "1.1.18",
-          "Microsoft.NET.Test.Sdk": "15.3.0-preview-20170628-02"
+          "Microsoft.NET.Test.Sdk": "15.3.0-preview-20170628-02",
+          "SiriusDrSindico.Domain": "1.0.0"
         },
         "runtime": {
           "SiriusDrSindico.Tests.dll": {}
+        }
+      },
+      "FluentValidator/2.0.2": {
+        "runtime": {
+          "lib/netstandard1.3/FluentValidator.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.1": {
@@ -988,6 +994,14 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "SiriusDrSindico.Domain/1.0.0": {
+        "dependencies": {
+          "FluentValidator": "2.0.2"
+        },
+        "runtime": {
+          "SiriusDrSindico.Domain.dll": {}
+        }
       }
     }
   },
@@ -996,6 +1010,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FluentValidator/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+jPy82KgA80/SjmesLUCQsBB+GWbffGYMeGUMizLWc87hQkBPnyrysfoa/Hiq0QciGEeFD1PokPwLafnNDnQ/Q==",
+      "path": "fluentvalidator/2.0.2",
+      "hashPath": "fluentvalidator.2.0.2.nupkg.sha512"
     },
     "Microsoft.CSharp/4.0.1": {
       "type": "package",
@@ -1486,6 +1507,11 @@
       "sha512": "sha512-Zm2BdeanuncYs3NhCj4c9e1x3EXFzFBVv2wPEc/Dj4ZbI9R8ecLSR5frAsx4zJCPBtKQreQ7Q/KxJEohJZbfzA==",
       "path": "system.xml.xpath.xmldocument/4.0.1",
       "hashPath": "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
+    },
+    "SiriusDrSindico.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

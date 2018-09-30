@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
+      "FluentValidator/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/FluentValidator.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/FluentValidator.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -1600,10 +1612,33 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "SiriusDrSindico.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "FluentValidator": "2.0.2"
+        },
+        "compile": {
+          "bin/placeholder/SiriusDrSindico.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SiriusDrSindico.Domain.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "FluentValidator/2.0.2": {
+      "sha512": "+jPy82KgA80/SjmesLUCQsBB+GWbffGYMeGUMizLWc87hQkBPnyrysfoa/Hiq0QciGEeFD1PokPwLafnNDnQ/Q==",
+      "type": "package",
+      "path": "fluentvalidator/2.0.2",
+      "files": [
+        "fluentvalidator.2.0.2.nupkg.sha512",
+        "fluentvalidator.nuspec",
+        "lib/netstandard1.3/FluentValidator.dll"
+      ]
+    },
     "Microsoft.CSharp/4.0.1": {
       "sha512": "17h8b5mXa87XYKrrVqdgZ38JefSUqLChUQpXgSnpzsM0nDOhE40FTeNWOJ/YmySGV6tG6T8+hjz6vxbknHJr6A==",
       "type": "package",
@@ -5610,6 +5645,11 @@
         "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "SiriusDrSindico.Domain/1.0.0": {
+      "type": "project",
+      "path": "../SiriusDrSindico.Domain/SiriusDrSindico.Domain.csproj",
+      "msbuildProject": "../SiriusDrSindico.Domain/SiriusDrSindico.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5617,7 +5657,8 @@
       "MSTest.TestAdapter >= 1.1.18",
       "MSTest.TestFramework >= 1.1.18",
       "Microsoft.NET.Test.Sdk >= 15.3.0-preview-20170628-02",
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "SiriusDrSindico.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5649,7 +5690,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\msena\\dev\\SiriusDrSindico\\SiriusDrSindico.Domain\\SiriusDrSindico.Domain.csproj": {
+              "projectPath": "C:\\Users\\msena\\dev\\SiriusDrSindico\\SiriusDrSindico.Domain\\SiriusDrSindico.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

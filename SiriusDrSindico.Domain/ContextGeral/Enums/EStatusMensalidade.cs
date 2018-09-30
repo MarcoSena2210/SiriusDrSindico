@@ -2,9 +2,9 @@
 {
     public enum EStatusMensalidade
     {
-        EmAnalise = 1,
+        Aberta = 1,
         Aprovado = 2,
-        Recusado = 3,
+        Cancelada = 3,
         Pago  = 4,
         Aberto = 5
     }

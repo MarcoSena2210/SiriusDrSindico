@@ -1,17 +1,17 @@
-﻿// using FluentValidator;
-// using FluentValidator.Validation;
+﻿using FluentValidator;
+using FluentValidator.Validation;
 
 namespace SiriusDrSindico.Domain.ContextGeral.ValueObjects
 {
-    public class VoDocumentoCPF 
+    public class VDocumentoCPF : Notifiable
     {
-        public VoDocumentoCPF(string number)
+        public VDocumentoCPF(string number)
         {
             Number = number;
 
-            // AddNotifications(new ValidationContract()
-            //     .IsTrue(Validate(Number), "Document", "CPF inválido")
-            // );
+            AddNotifications(new ValidationContract()
+                 .IsTrue(Validate(Number), "Documento", "CPF inválido")
+            );
         }
 
         public string Number { get; private set; }

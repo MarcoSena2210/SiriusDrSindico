@@ -1,9 +1,11 @@
 using System;
+using FluentValidator;
+using FluentValidator.Validation;
 using SiriusDrSindico.Domain.ContextGeral.Enums;
 
 namespace SiriusDrSindico.Domain.ContextGeral.Entities
 {
-    public class Parametro
+    public class Parametro :Notifiable
     {
             public Parametro(Guid condominioId, Guid edificacaoId,
             byte numeroDeImoveisPorEdificio,
@@ -34,6 +36,12 @@ namespace SiriusDrSindico.Domain.ContextGeral.Entities
             ValorDesconto = valorDesconto;
             ValorMulta = valorMulta;
             ValorFundoReserva = valorFundoReserva;
+
+            AddNotifications(new ValidationContract()
+                .Requires()
+                .AreEquals(ValorCondominio,0, "decimal", "Informe o valor do condominio")
+                .IsGreaterThan(ValorCondominio, ValorDesconto, "decimal", "O Valor do desconto não pode ser maior que o valor do condominio ")
+            );
 
            // new AddNotifications<Parametro>(Parametro)
            //      .IfNotGuid(x =>x.CondominioId,"Informe um id do condominio GUID"); 

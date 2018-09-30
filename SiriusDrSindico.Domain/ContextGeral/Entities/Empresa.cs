@@ -2,10 +2,12 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 using SiriusDrSindico.Domain.ContextGeral.ValueObjects;
+using FluentValidator.Validation;
+using FluentValidator;
 
 namespace SiriusDrSindico.Domain.ContextGeral.Entities
 {
-    public class Empresa
+    public class Empresa : Notifiable
     {
         //Cria uma lista para adionalr os condominio
         private readonly IList<Condominio> _condominios;
@@ -19,6 +21,12 @@ namespace SiriusDrSindico.Domain.ContextGeral.Entities
             Endereco = endereco;
              //A passagem da lista
             _condominios = new List<Condominio>(); 
+            AddNotifications(new ValidationContract()
+                .Requires()
+                .HasMinLen(RazaoSocial, 3, "RazaoSocial", "A RazaoSocial deve conter pelo menos 3 caracteres")
+                .HasMaxLen(RazaoSocial, 50, "RazaoSocial", "A RazaoSocial deve conter no máximo 50 caracteres")
+            );    
+
         }
 
         #region Propriedades
