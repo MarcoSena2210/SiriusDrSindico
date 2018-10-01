@@ -11,7 +11,7 @@ namespace SiriusDrSindico.Domain.ContextGeral.Entities
     {
          //Cria uma lista para adionar as edificações 
         private readonly IList<Edificacao> _edificacoes;
-        public Condominio(Empresa empresa,VNome nomeCondominio, VEmail email, VEndereco endereco)
+        public Condominio(Empresa empresa,string nomeCondominio, VEmail email, VEndereco endereco)
         {
             IdCondominio = Guid.NewGuid().ToString().Replace("-"," ").Substring(0,8).ToUpper();
             Empresa = empresa;
@@ -24,14 +24,15 @@ namespace SiriusDrSindico.Domain.ContextGeral.Entities
 
               AddNotifications(new ValidationContract()
                 .Requires()
-           
+                      .HasMinLen(NomeCondominio, 3, "NomeCondominio", "O nome do condominio deve conter pelo menos 3 caracteres")
+                      .HasMaxLen(NomeCondominio, 50, "NomeCondominio", "O nome do condominio deve conter no máximo 50 caracteres")
             );    
         }
 
         #region Propriedades
         public string IdCondominio { get; private set; }
      
-        public VNome NomeCondominio { get; private set; }
+        public string NomeCondominio { get; private set; }
         public VEmail Email { get; private set; }
         public DateTime DataCadastro { get; private set; }
 

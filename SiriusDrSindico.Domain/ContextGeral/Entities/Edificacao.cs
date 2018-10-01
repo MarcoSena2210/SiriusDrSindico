@@ -11,7 +11,7 @@ namespace SiriusDrSindico.Domain.ContextGeral.Entities
         //Cria uma list aprivada para adionar os imoveis dessa edificacao
         private readonly IList<Imovel> _imoveis;
          
-        public Edificacao(Condominio condominio, VNome nomeEdificacao, VEndereco endereco)
+        public Edificacao(Condominio condominio, string nomeEdificacao, VEndereco endereco)
         {   
             Condominio = condominio;
             NomeEdificacao = nomeEdificacao;
@@ -19,12 +19,14 @@ namespace SiriusDrSindico.Domain.ContextGeral.Entities
              //A passagem da lista
             _imoveis = new List<Imovel>();
              AddNotifications(new ValidationContract()
-                .Requires()
-                 );
+                     .Requires()
+                     .HasMinLen(NomeEdificacao, 3, "NomeEdificacao", "O nome do condominio deve conter pelo menos 3 caracteres")
+                     .HasMaxLen(NomeEdificacao, 50, "NomeEdificacao", "O nome do condominio deve conter no máximo 50 caracteres")
+              );
         }
 
         #region Proipriedades
-        public VNome NomeEdificacao {get; private set;} 
+        public string NomeEdificacao {get; private set;} 
         public VEndereco Endereco { get; private set; }
             
         /*EF propriedades de navegacao-RELACIONAMENTOS  1 Condominio pertence a uma empresa */

@@ -41,15 +41,18 @@ namespace SiriusDrSindico.Domain.ContextGeral.Entities
                 .Requires()
                 .AreEquals(ValorCondominio,0, "decimal", "Informe o valor do condominio")
                 .IsGreaterThan(ValorCondominio, ValorDesconto, "decimal", "O Valor do desconto não pode ser maior que o valor do condominio ")
+               
             );
 
-           // new AddNotifications<Parametro>(Parametro)
-           //      .IfNotGuid(x =>x.CondominioId,"Informe um id do condominio GUID"); 
 
-          //       .IfNotGuid(x =>x.EdificacaoId,"informe um id da edificacao GUID"); 
-                          
+            if (numeroDeImoveisPorEdificio == 0)
+                AddNotification("NumeroDeImoveisPorEdificio", "Quantidade de imoveis por edifício é Obrigatorio");
+            if(diaParaDesconto == 0 || diaParaDesconto > 31)
+                AddNotification("DiaParaDesconto", $"Dia para desconto invalido.");    
+            
         }
-#region Propriedades
+
+        #region Propriedades
         public Guid CondominioId { get; private set; }
         public Guid EdificacaoId { get; private set; }
         public byte NumeroDeImoveisPorEdificio { get; private set; }
@@ -70,8 +73,13 @@ namespace SiriusDrSindico.Domain.ContextGeral.Entities
         public decimal ValorDesconto { get; private set; }
         public decimal ValorMulta { get; private set; }
         public decimal ValorFundoReserva { get; private set; }
-#endregion
-
+        #endregion
+        #region Métodos
+            public void ValidaDiaVencimento(byte diaVencimentoBoleto){
+                if(diaVencimentoBoleto == 0 || diaVencimentoBoleto > 31)
+                    AddNotification("DiaVencimentoBoleto","Dia de Vencimento inválido"); 
+            }
+        #endregion
      
 
        
